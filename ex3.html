@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function countNumberInArray(arr) {
+        var count = 0;
+        for (let i = 0 ; i < arr.length ; i++) {
+            if (typeof arr[i] == "number") {
+                count++;
+            }
+        }
+        document.write("Mang co " + count + " ki tu so.");
+    }
+    let arr1 = ["a" , "b" , "c" , 1 , 2 , "h" , 4 , 5];
+    countNumberInArray(arr1);
+</script>
+</body>
+</html>
